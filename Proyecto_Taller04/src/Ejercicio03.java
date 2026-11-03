@@ -6,13 +6,16 @@ import java.util.Scanner;
  * @author Santiago Sánchez
  * @version 1.0
  */
-public class Ejercicio03 {
-    public static void main(String[] args) {
+public class Ejercicio03 
+{
+    public static void main(String[] args) 
+    {
         Scanner tcl = new Scanner(System.in);
         int numTab;
         System.out.println("Ingrese un numero entre 2 y 6: ");
         numTab = tcl.nextInt();
-        if (numTab >=2 && numTab <=6){
+        if (numTab >=2 && numTab <=6)
+        {
             System.out.println(numTab + " x 1 = " + (numTab * 1));
             System.out.println(numTab + " x 2 = " + (numTab * 2));
             System.out.println(numTab + " x 3 = " + (numTab * 3));

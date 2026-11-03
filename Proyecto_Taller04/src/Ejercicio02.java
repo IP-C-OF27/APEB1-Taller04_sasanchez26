@@ -6,8 +6,10 @@ import java.util.Scanner;
  * @author Santiago Sánchez
  * @version 1.0
  */
-public class Ejercicio02 {
-    public static void main(String[] args) {
+public class Ejercicio02 
+{
+    public static void main(String[] args) 
+    {
         Scanner tcl = new Scanner(System.in);
         double gastoHijo1, gastoHijo2, gastoHijo3, gastoTotal;
         System.out.print("Deme los gastos:");

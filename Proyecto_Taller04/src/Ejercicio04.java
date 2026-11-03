@@ -6,8 +6,10 @@ import java.util.Scanner;
  * @author Santiago Sánchez
  * @version 1.0
  */
-public class Ejercicio04 {
-    public static void main(String[] args) {
+public class Ejercicio04 
+{
+    public static void main(String[] args) 
+    {
         Scanner tcl = new Scanner(System.in);
         double plantillaTel, costMin, minMes;
         System.out.println("Ingrese el costo por minutos: ");
@@ -15,10 +17,10 @@ public class Ejercicio04 {
         System.out.println("Ingrese el numero de minutos consumidos en el mes");
         minMes = tcl.nextDouble();
         plantillaTel = costMin * minMes;
-        System.out.println("La plantilla de telefono de su casa es: " + plantillaTel);
+        System.out.println("La plantilla de telefono de su casa es: " + 
+                plantillaTel);
     }
 }
-
 /***
  * EVIDENCIA DEL RUN:
  * run:
